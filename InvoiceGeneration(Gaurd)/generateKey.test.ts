@@ -6,4 +6,4 @@ describe('generateKey', () => {
   test('test', () => {
     console.log('test');
   })
-});
+}); 
