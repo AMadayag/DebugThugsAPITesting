@@ -48,3 +48,24 @@ export async function loginUserReq(
     throw error;
   }
 }
+
+export async function createInvoiceReq(
+  body: any,
+  token: string
+) {
+  try {
+    const res = await axios.post(`${API_URL}/v1/invoices/create`,
+      body,
+      {
+        headers: {
+          'Content-Type': 'application/json',
+          Cookie: `token=${token}`
+        },
+        timeout: 10000,
+      }
+    )
+    return res;
+  } catch (error) {
+    throw error;
+  }
+}
