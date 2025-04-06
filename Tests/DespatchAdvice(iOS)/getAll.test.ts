@@ -1,4 +1,4 @@
-import { getAllReq } from "../testHelperOut";
+import { getAllReq } from "../testHelperiOS";
 
 describe('get all despatch ids', () => {
   test('successful return', async () => {
