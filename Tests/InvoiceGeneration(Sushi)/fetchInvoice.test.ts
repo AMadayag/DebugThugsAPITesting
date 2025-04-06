@@ -2,7 +2,7 @@ import { loginUserReq,
   createInvoiceReq,
   MOCK_INVOICE,
   fetchInvoiceReq, 
-  registerUserReq} from "../testHelper";
+  registerUserReq} from "../testHelperSushi";
 
 // test for createInvoice
 describe('createInvoice', () => {

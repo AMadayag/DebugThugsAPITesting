@@ -1,4 +1,4 @@
-import { registerUserReq } from "../testHelper";
+import { registerUserReq } from "../testHelperSushi";
 
 // test for registerUser
 describe('registerUser', () => {
