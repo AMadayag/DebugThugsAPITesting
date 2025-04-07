@@ -1,4 +1,4 @@
-import { loginUserReq, createInvoiceReq, MOCK_INVOICE, MISSING_FIELDS } from "../testHelper";
+import { loginUserReq, createInvoiceReq, MOCK_INVOICE, MISSING_FIELDS } from "../testHelperSushi";
 
 // test for createInvoice
 describe('createInvoice', () => {

@@ -1,4 +1,4 @@
-import { loginUserReq } from "../testHelper";
+import { loginUserReq } from "../testHelperSushi";
 
 describe('loginUser', () => {
   test('successful login', async () => {
